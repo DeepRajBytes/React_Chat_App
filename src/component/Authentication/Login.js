@@ -38,7 +38,7 @@ function Login() {
         headers: {
           "Content-type": "application/json",
           Accept: "application/json",
-          "Access-Control-Allow-Origin": "*",
+        
         },
       };
       const  {data}  = await axios.post("/api/user/login",{ email, password },config);
