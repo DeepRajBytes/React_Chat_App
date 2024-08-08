@@ -21,7 +21,7 @@ import Lottie from "react-lottie";
 import * as animationData from "../Animations/typing.json";
 import * as animationWait from "../Animations/wait.json";
 
-const ENDPOINT = "https://chat-app-backend-eg60.onrender.com";
+const ENDPOINT = "https://chat-app-backend-vl9j.onrender.com";
 let socket, selectedChatCompare;
 
 function SingleChat({ fetchAgain, setFetchAgain }) {
