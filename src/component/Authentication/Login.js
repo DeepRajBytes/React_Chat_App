@@ -39,7 +39,7 @@ function Login() {
           "Content-type": "application/json",
           Accept: "application/json",
           "Access-Control-Allow-Origin": "*",
-          "Access-Control-Allow-Methods": "GET, POST, PUT, OPTIONS",
+          
         },
       };
       const  {data}  = await axios.post("/api/user/login",{ email, password },config);
