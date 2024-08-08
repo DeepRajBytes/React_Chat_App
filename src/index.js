@@ -11,6 +11,9 @@ import {
 } from "react-router-dom";
 import { Homepage, Chatpage } from "./Pages";
 import ChatProvider from "./context/ChatProvider";
+import axios from "axios";
+
+axios.defaults.baseURL = "https://chat-app-backend-cle0.onrender.com";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
